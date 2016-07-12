@@ -1,0 +1,144 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="javascript H5自适应框架" />
+    <meta name="Keywords" content="javascript H5自适应框架" />
+    <title id="title">javascript自适应框架</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/adaptive-version2.js"></script>
+    <script>
+        window['adaptive'].desinWidth = 640;
+        window['adaptive'].baseFont = 24;
+        window['adaptive'].init();
+    </script>
+</head>
+<body>
+    <style>
+
+        body {
+            font-family: 微软雅黑;
+            color: #666;
+        }
+
+        .red {
+            color: #e94643 !important;
+        }
+
+        .green {
+            color: #4a9500 !important;
+        }
+
+        .gray {
+            color: #a5a5a5 !important;
+        }
+
+
+        h1 {
+            font-size: 0.32rem;
+            line-height: 0.92rem;
+            text-align: center;
+
+            color: #fff;
+            background-color: #e94643;
+        }
+
+        .fund-info {
+            position: relative;
+            font-weight: normal;
+            padding: 0.2rem 0;
+            padding-right: 1.7rem;
+            padding-left: 0.23rem;
+            font-size: 0.32rem;
+            line-height: 1;
+        }
+
+        .fund-info .fund-name {
+            color: #001111;
+        }
+
+        .fund-info .code {
+            font-size: 0.2rem;
+            color: #a5a5a5;
+        }
+
+        .fund-info .type {
+            font-size: 0.2rem;
+            color: #a5a5a5;
+            margin-left: 0.2rem;
+        }
+        .fund-info .tc {
+            top: 0.2rem;
+            position: absolute;
+            right: 0.25rem;
+        }
+        .main-info {
+            height: 0.88rem;
+            padding-bottom: 0.24rem;
+        }
+
+        .navUnit-box {
+            display: table-cell;
+
+            width: 2.13rem;
+            border-right: 1px solid #e3e3e3;
+        }
+
+        .main-info .value {
+            font-size: 0.26rem;
+            line-height: 0.6rem;
+            text-align: center;
+        }
+
+        .main-info .des {
+            font-size: 0.16rem;
+            line-height: 0.28rem;
+            text-align: center;
+        }
+
+        .avgReturnYear-box {
+            display: table-cell;
+
+            width: 2.13rem;
+            border-right: 1px solid #e3e3e3;
+        }
+
+        .infoFirstInvestStyle-box {
+            display: table-cell;
+
+            width: 2.12rem;
+        }
+
+        .infoUnityield-box {
+            display: table-cell;
+
+            width: 3.19rem;
+            border-right: 1px solid #e3e3e3;
+        }
+
+        .infoYearlyroe-box {
+            display: table-cell;
+
+            width: 3.2rem;
+        }
+
+
+    </style>
+    <section id="discriptionCon">
+            <section>
+                <h2 class="fund-info"><span class="fund-name">嘉实活期宝</span>
+                <div class="tc"><span class="code">000464</span><span class="type">货币型</span></div>
+                </h2>
+            </section>
+            <section class="main-info">
+                <div class="infoUnityield-box">
+                    <p class="value red">1.4821</p>
+                    <p class="des gray">每万份收益（2015-06-17）</p>
+                </div>
+                <div class="infoYearlyroe-box">
+                    <p class="value red">4.1080%</p>
+                    <p class="des gray">七日年化收益（2015-06-17）</p>
+                </div>
+            </section>
+    </section>
+</body>
+</html>
